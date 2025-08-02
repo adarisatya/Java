@@ -5,6 +5,19 @@ public class Looping_Statements
                 // Looping Statements - It is used to execute a block of code repeatedly until the specified condition is false.
                 // For Loop - It is used when the number of iterations is known.
                 // Syntax : for (initialization; condition; increment/decrement) { // code to be executed }
+        
+        // Real Life Tests
+            /* Rate for Charge Consumption for the services within the network */
+                double ratePerMinute = 0.50;
+                    for (int userId = 1; userId <= 3; userId++) 
+                        {
+                            int minutesUsed = userId * 60; // Simulated usage
+                            double bill = minutesUsed * ratePerMinute;
+                            System.out.println("User " + userId + " : Bill = " + bill);
+                        }        
+                
+            /* Math Calculation */    
+                     
                 for (int i = 0; i < 5; i++) 
                     {
                         System.out.println("For Loop Iteration: " + i);
@@ -242,6 +255,7 @@ public class Looping_Statements
                         k++;
                     } 
                 while (k < 0);
+
             }
         }
     }
