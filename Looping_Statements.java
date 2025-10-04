@@ -118,16 +118,14 @@ public class Looping_Statements
                                 System.out.println(temp + " " + "is not a palindrome number");
                             }
                 //Fibnocci series - A Fibonacci series is a series of numbers in which each number is the sum of the two preceding ones, usually starting with 0 and 1.
-                int f1 = 0 , f2 = 1, f3;
-                    System.out.print(f1 + " " + f2);
-                        for(int i = 1; i <= 8; i++)
-                            {
-                                f3 = f1 + f2;
-                                System.out.print(" " + f3);
-                                f1 = f2;
-                                f2 = f3;
-                            } 
-                                System.out.println(" ");
+                int f1 = 0 , f2 = 1 , f3;
+			    for (int i = 1 ; i <= 8 ; i ++)
+			        {
+        				f3 = f1 + f2;
+        				System.out.print(" " + f3);
+        				f1 = f2;
+        				f2 = f3;
+			        }
                 // Print to check 7 is prime number.
                 int num2 = 7 ,count2=0;
                 for (int v = 1; v <= 7; v++)
@@ -260,3 +258,4 @@ public class Looping_Statements
         }
 
     }
+
