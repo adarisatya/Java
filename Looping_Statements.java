@@ -64,7 +64,7 @@ public class Looping_Statements
                     {
                         if (q%2==0)
                             {
-                                product = product * q; // sum = sum + p | sum + = p
+                                product = product * q; // product * = q
                             }
                     }
                         System.out.println("Final value is : " + " " + product);
@@ -258,4 +258,5 @@ public class Looping_Statements
 
             }
         }
+
     }
