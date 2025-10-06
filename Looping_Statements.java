@@ -14,8 +14,22 @@ public class Looping_Statements
                             int minutesUsed = userId * 60; // Simulated usage
                             double bill = minutesUsed * ratePerMinute;
                             System.out.println("User " + userId + " : Bill = " + bill);
-                        }        
-                
+                        }  
+			/* Water filled in Bottle with respect to the Capacity */
+				int bottlesFilled = 0;
+					int waterInTank = 10; // liters
+					while (waterInTank > 0) 
+						{
+						    System.out.println("Filling bottle " + (bottlesFilled + 1));
+						    bottlesFilled++;
+						    waterInTank -= 2; // each bottle takes 2 liters
+						}
+			/* For Greeting Friends */
+				String[] friends = {"Alice", "Bob", "Charlie"};
+					for (String name : friends) 
+						{
+						    System.out.println("Hello, " + name + "!");
+						}
             /* Math Calculation */    
                      
                 for (int i = 0; i < 5; i++) 
@@ -258,4 +272,5 @@ public class Looping_Statements
         }
 
     }
+
 
