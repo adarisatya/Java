@@ -108,7 +108,7 @@ public class Conditional_Switch_Case_Statements
                             System.out.println("TOM & JERRY");
                         }
                 // Swap 2 numbers using third variable.
-                    int a = 10 , b = 20 , c;
+                    int a = 10 , b = 20 , c = 0;
                         System.out.println("Pre Swap : " + a + " " + b);
                     c = a;
                     a = b;
@@ -236,4 +236,5 @@ public class Conditional_Switch_Case_Statements
                             }
             }
     }
+
 
