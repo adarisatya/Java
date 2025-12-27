@@ -6,7 +6,7 @@ public class Operators
                 // Assignment operator '=' - It is used to assign or store the value into a variable.
                 int i = 20;
                     System.out.println(i);
-                // Aritmetic Operator - It is a symbol or function that performs mathematical operations like addition, subtraction, multiplication, and division.
+                // Arithmetic Operator - It is a symbol or function that performs mathematical operations like addition, subtraction, multiplication, and division.
                 int j,k,l,m,n;
                 j = 20 + 2;
                 k = 20 - 2;
@@ -25,7 +25,7 @@ public class Operators
                 String b = "is an Integer Value";
                 String Concat  = a + " " + b;
                     System.out.println(Concat);
-                // Comparision Operator - It is used to compare two values and return a boolean value. It will check the equality and inequality between two values.
+                // Comparison Operator - It is used to compare two values and return a boolean value. It will check the equality and inequality between two values.
                 int o = 20, p = 30;
                 boolean q = o == p;
                     System.out.println(q);
@@ -98,6 +98,7 @@ public class Operators
                 System.out.println(A1); // It will print the incremented value of A1.
             }
     }
+
 
 
 
