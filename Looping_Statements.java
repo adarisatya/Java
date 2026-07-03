@@ -14,8 +14,22 @@ public class Looping_Statements
                             int minutesUsed = userId * 60; // Simulated usage
                             double bill = minutesUsed * ratePerMinute;
                             System.out.println("User " + userId + " : Bill = " + bill);
-                        }        
-                
+                        }  
+			/* Water filled in Bottle with respect to the Capacity */
+				int bottlesFilled = 0;
+					int waterInTank = 10; // liters
+					while (waterInTank > 0) 
+						{
+						    System.out.println("Filling bottle " + (bottlesFilled + 1));
+						    bottlesFilled++;
+						    waterInTank -= 2; // each bottle takes 2 liters
+						}
+			/* For Greeting Friends */
+				String[] friends = {"Alice", "Bob", "Charlie"};
+					for (String name : friends) 
+						{
+						    System.out.println("Hello, " + name + "!");
+						}
             /* Math Calculation */    
                      
                 for (int i = 0; i < 5; i++) 
@@ -64,7 +78,7 @@ public class Looping_Statements
                     {
                         if (q%2==0)
                             {
-                                product = product * q; // sum = sum + p | sum + = p
+                                product = product * q; // product * = q
                             }
                     }
                         System.out.println("Final value is : " + " " + product);
@@ -118,16 +132,14 @@ public class Looping_Statements
                                 System.out.println(temp + " " + "is not a palindrome number");
                             }
                 //Fibnocci series - A Fibonacci series is a series of numbers in which each number is the sum of the two preceding ones, usually starting with 0 and 1.
-                int f1 = 0 , f2 = 1, f3;
-                    System.out.print(f1 + " " + f2);
-                        for(int i = 1; i <= 8; i++)
-                            {
-                                f3 = f1 + f2;
-                                System.out.print(" " + f3);
-                                f1 = f2;
-                                f2 = f3;
-                            } 
-                                System.out.println(" ");
+                int f1 = 0 , f2 = 1 , f3;
+			    for (int i = 1 ; i <= 8 ; i ++)
+			        {
+        				f3 = f1 + f2;
+        				System.out.print(" " + f3);
+        				f1 = f2;
+        				f2 = f3;
+			        }
                 // Print to check 7 is prime number.
                 int num2 = 7 ,count2=0;
                 for (int v = 1; v <= 7; v++)
@@ -258,4 +270,7 @@ public class Looping_Statements
 
             }
         }
+
     }
+
+
