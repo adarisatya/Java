@@ -2,7 +2,7 @@ public class Looping_Statements
     {
         public static void main(String[] args) {
             {
-                // Looping Statements - It is used to execute a block of code repeatedly until the specified condition is false.
+                // Looping Statements - It is used to execute a block of code repeatedly until the specified condition is true.
                 // For Loop - It is used when the number of iterations is known.
                 // Syntax : for (initialization; condition; increment/decrement) { // code to be executed }
         
